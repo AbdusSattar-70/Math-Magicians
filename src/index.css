@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(62, 161, 219, 1) 11.2%,
+    rgba(93, 52, 236, 1) 100.2%
+  );
+}
+
+main {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 70vw;
+  height: 90vh;
+  margin-top: 3.5rem;
+}
+
+.display {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 0.5rem;
+  background-color: #726f6f;
+  color: white;
+  font-size: 3rem;
+}
+
+.keypad {
+  display: grid;
+  grid-template: auto/repeat(4, 1fr);
+}
+
+button {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 25px;
+  border: 1px solid #c3c1c1;
+  outline: none;
+}
+
+button:hover,
+button:focus {
+  background-color: #c3c1c1;
+  color: white;
+  border: 1px solid rgb(0, 221, 255);
+}
+
+.deepOrange {
+  background-color: #ff8b13;
+}
+
+.zero {
+  grid-column: 1/3;
+}
