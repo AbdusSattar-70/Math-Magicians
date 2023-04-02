@@ -11,10 +11,14 @@ const Calculator = () => {
   };
 
   return (
-    <section className="container">
-      <Display displyValue={displyValue.next || displyValue.total || '0'} />
-      <Keypad eventListener={handleCalculation} />
+    <section className="mainContainer">
+      <h2>Let&apos;s Do Some Math! </h2>
+      <div className="container">
+        <Display displyValue={displyValue.next || displyValue.total || '0'} />
+        <Keypad eventListener={handleCalculation} />
+      </div>
     </section>
+
   );
 };
 

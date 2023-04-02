@@ -1,3 +1,29 @@
-.navLink {
-  text-decoration: none;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+.header nav {
+  width: 25%;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header li {
+  list-style: none;
+}
+
+.header a:hover {
+  color: #ddf9f1;
+}
+
+.header hr {
+  height: 1.5rem;
+  border: 1px solid black;
+  padding: 0;
 }

@@ -15,25 +15,23 @@ body {
     );
 }
 
-main {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+nav li a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #0c0c0c;
 }
 
 nav .active {
-  color: crimson;
+  color: rgb(250, 9, 170);
 }
 
-.container {
-  width: 70vw;
-  height: 90vh;
-  margin-top: 3.5rem;
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 1.5rem;
 }
 
 .display {
-  width: 70vw;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -52,7 +50,7 @@ button {
   cursor: pointer;
   font-size: 2rem;
   font-weight: 600;
-  padding: 25px;
+  padding: 15px 70px;
   border: 1px solid #c3c1c1;
   outline: none;
 }
