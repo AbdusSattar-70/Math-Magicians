@@ -22,9 +22,8 @@ main {
   align-items: center;
 }
 
-
 nav .active {
-color: crimson;
+  color: crimson;
 }
 
 .container {
