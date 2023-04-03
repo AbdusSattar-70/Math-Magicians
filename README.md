@@ -6,8 +6,8 @@
 </div>
 
 <div align="center">
-<h3><b>screenshot</b></h3>
-It will be added when the project is completed.
+<h3><b>Screenshot</b></h3>
+<img src="src/assets/Screen1.png" alt="screenshoot" width="400"  height="auto"/>
 
 </div>
 
@@ -40,7 +40,7 @@ It will be added when the project is completed.
 
 **Math-Magicians** is the first project of the Math Magicians application with React</b>
 
-<h5> I set up the environment and tools needed to develop a React application. In this project, I will make a simple SPA that contains three subpages - Make a simple calculator, make a random math-related quote, and Homepage.</h5>
+<h5> I set up the environment and tools needed to develop a React application. In this project, I have made a simple SPA that contains three subpages - Made a simple calculator, made a random math-related quote, and Homepage.</h5>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -59,14 +59,14 @@ It will be added when the project is completed.
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href=#>Local Server - It will be Hosted on Github when finish</a></li>
+    <li><a href=#>Server - It is Hosted on Render</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href=#>I will us API's in future</a></li>
+    <li><a href=https://api-ninjas.com/api/quotes>Used API's Ninjas</a></li>
   </ul>
 </details>
 
@@ -74,7 +74,8 @@ It will be added when the project is completed.
 
 ## Key Features <a name="key-features"></a>
 
-<p>Right now doesn't added anything.</p>
+- [ ] **You can simple calculate by using calculator**
+- [ ] **You can see random math related quotes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,7 +83,7 @@ It will be added when the project is completed.
 
 ## 🚀 Live Demo<a name="live-demo"></a>
 
-- [Live Demo Link](It will come when finished the project.)
+- [Live Demo Link](https://math-magicians-ufq5.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,10 +145,11 @@ To run tests and check errors, run the following command:
 
 You can deploy this project using:
 
-- GitHub pages.
+- render Hosting server.
 
 ```bash
-   npm run build
+   npm install
+   npm run start
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -168,8 +170,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Make calculator**
-- [ ] **Add random math related quotes**
 - [ ] **Web Responsiveness for all users**
 - [ ] **Add web accessibility**
 - [ ] **Add gradient background that will change randomly**
