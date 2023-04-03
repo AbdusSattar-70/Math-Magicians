@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { v4 as id } from 'uuid';
 
-const loadingMessage = <p>Please wait for a while, data is loading....</p>;
-const errorMessage = <p>Oops, something went wrong!!!</p>;
+const loadingMessage = <h2>Please wait for a while, data is loading....</h2>;
+const errorMessage = <h2>Oops, something went wrong!!!</h2>;
 
 const Quotes = () => {
   const [quotes, setQuotes] = useState(null);
@@ -31,14 +31,20 @@ const Quotes = () => {
   }, [setQuotes, setIsLoading]);
 
   return (
-    <div>
+    <div style={{ textAlign: 'center', margin: '4rem 3rem' }}>
       {isLoading ? loadingMessage : null}
       {hasError ? errorMessage : null}
       {quotes && Array.isArray(quotes)
         && quotes.map((data) => (
           <div key={id()}>
-            <h1>{data.quote}</h1>
-            <h3>{data.author}</h3>
+            <h1>
+              &ldquo;
+              {data.quote}
+              &rdquo;
+            </h1>
+            <h2>
+              {data.author}
+            </h2>
           </div>
         ))}
     </div>
