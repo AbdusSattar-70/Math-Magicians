@@ -40,7 +40,7 @@
 
 **Math-Magicians** is the first project of the Math Magicians application with React</b>
 
-<h5> I set up the environment and tools needed to develop a React application. In this project, I have made a simple SPA that contains three subpages - Made a simple calculator, made a random math-related quote, and Homepage.</h5>
+<h5> I set up the environment and tools needed to develop a React application. In this project, I have made a simple SPA that contains three subpages - Made a simple calculator, made a random math-related quote, and Homepage. In addition we made the pair programming for testing the application.</h5>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -163,6 +163,14 @@ You can deploy this project using:
 - GitHub: [AbdusSattar-70](https://github.com/AbdusSattar-70)
 - Twitter: [Abdus Sattar](https://twitter.com/Abdus_Sattar70)
 - LinkedIn: [Abdus Sattar](https://www.linkedin.com/in/abdus-sattar-a41a26215/)
+
+<!-- CONTRIBUTOR -->
+## 👥 CONTIBUTUR <a name="authors"></a>
+👤 **Santosh Konappanavar**
+
+- GitHub: [@Santosh-Konappanavar](https://github.com/Santosh-Konappanavar)
+- Twitter: [@SantoshKonapp1](https://twitter.com/SantoshKonappa1)
+- LinkedIn: [@Santosh Konappanavar](https://www.linkedin.com/in/santosh-konappanavar/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
