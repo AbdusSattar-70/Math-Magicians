@@ -165,7 +165,7 @@ You can deploy this project using:
 - LinkedIn: [Abdus Sattar](https://www.linkedin.com/in/abdus-sattar-a41a26215/)
 
 <!-- CONTRIBUTOR -->
-## 👥 CONTIBUTUR <a name="authors"></a>
+## 👥 CONTRIBUTOR <a name="authors"></a>
 👤 **Santosh Konappanavar**
 
 - GitHub: [@Santosh-Konappanavar](https://github.com/Santosh-Konappanavar)
