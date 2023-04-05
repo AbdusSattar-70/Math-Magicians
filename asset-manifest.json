@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/repository-Math-Magicians/static/css/main.46bd1afb.css",
+    "main.js": "/repository-Math-Magicians/static/js/main.f5fc08d0.js",
+    "index.html": "/repository-Math-Magicians/index.html",
+    "main.46bd1afb.css.map": "/repository-Math-Magicians/static/css/main.46bd1afb.css.map",
+    "main.f5fc08d0.js.map": "/repository-Math-Magicians/static/js/main.f5fc08d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46bd1afb.css",
+    "static/js/main.f5fc08d0.js"
+  ]
+}
